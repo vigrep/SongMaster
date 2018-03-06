@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		864C816B1FEA30520054F759 /* ListDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864C816A1FEA30510054F759 /* ListDialog.swift */; };
+		864C816D1FEA408B0054F759 /* ListDialogView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 864C816C1FEA408B0054F759 /* ListDialogView.xib */; };
+		8656BCE21FEF60C900F71030 /* 愿得一人心.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8656BCE11FEF60C900F71030 /* 愿得一人心.mp3 */; };
+		8658CDD51FDCDC300013FE65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8658CDD41FDCDC300013FE65 /* AppDelegate.swift */; };
+		8658CDD71FDCDC300013FE65 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8658CDD61FDCDC300013FE65 /* ViewController.swift */; };
+		8658CDDA1FDCDC300013FE65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8658CDD81FDCDC300013FE65 /* Main.storyboard */; };
+		8658CDDC1FDCDC300013FE65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8658CDDB1FDCDC300013FE65 /* Assets.xcassets */; };
+		8658CDDF1FDCDC300013FE65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8658CDDD1FDCDC300013FE65 /* LaunchScreen.storyboard */; };
+		8658CDE91FDCF1710013FE65 /* 断点.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8658CDE81FDCF1710013FE65 /* 断点.mp3 */; };
+		865CD58A1FFCA50D00F5AA34 /* 等一分钟.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 865CD5891FFCA50C00F5AA34 /* 等一分钟.mp3 */; };
+		865EA4FF1FE7C1C60021D99B /* SelectSongDialogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865EA4FE1FE7C1C60021D99B /* SelectSongDialogViewController.swift */; };
+		8672ADF11FE50B9500DBD858 /* 阴天快乐.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8672ADF01FE50B9500DBD858 /* 阴天快乐.mp3 */; };
+		8672ADF31FE5135D00DBD858 /* PickerViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8672ADF21FE5135D00DBD858 /* PickerViewDataSource.swift */; };
+		8672ADF51FE52CBB00DBD858 /* LyricDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8672ADF41FE52CBB00DBD858 /* LyricDataSource.swift */; };
+		8672ADF71FE52D6600DBD858 /* LyricManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8672ADF61FE52D6600DBD858 /* LyricManager.swift */; };
+		867EE53E200C3C65001713E5 /* 父亲.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 867EE53D200C3C65001713E5 /* 父亲.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		864C816A1FEA30510054F759 /* ListDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDialog.swift; sourceTree = "<group>"; };
+		864C816C1FEA408B0054F759 /* ListDialogView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListDialogView.xib; sourceTree = "<group>"; };
+		8656BCE11FEF60C900F71030 /* 愿得一人心.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "愿得一人心.mp3"; sourceTree = "<group>"; };
+		8658CDD11FDCDC300013FE65 /* SongMaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SongMaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8658CDD41FDCDC300013FE65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8658CDD61FDCDC300013FE65 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8658CDD91FDCDC300013FE65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8658CDDB1FDCDC300013FE65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8658CDDE1FDCDC300013FE65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8658CDE01FDCDC300013FE65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8658CDE81FDCF1710013FE65 /* 断点.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "断点.mp3"; path = "../../../断点.mp3"; sourceTree = "<group>"; };
+		865CD5891FFCA50C00F5AA34 /* 等一分钟.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "等一分钟.mp3"; sourceTree = "<group>"; };
+		865EA4FE1FE7C1C60021D99B /* SelectSongDialogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectSongDialogViewController.swift; sourceTree = "<group>"; };
+		8672ADF01FE50B9500DBD858 /* 阴天快乐.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "阴天快乐.mp3"; sourceTree = "<group>"; };
+		8672ADF21FE5135D00DBD858 /* PickerViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewDataSource.swift; sourceTree = "<group>"; };
+		8672ADF41FE52CBB00DBD858 /* LyricDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LyricDataSource.swift; sourceTree = "<group>"; };
+		8672ADF61FE52D6600DBD858 /* LyricManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LyricManager.swift; sourceTree = "<group>"; };
+		867EE53D200C3C65001713E5 /* 父亲.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "父亲.mp3"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8658CDCE1FDCDC300013FE65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8658CDC81FDCDC300013FE65 = {
+			isa = PBXGroup;
+			children = (
+				8658CDD31FDCDC300013FE65 /* SongMaster */,
+				8658CDD21FDCDC300013FE65 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8658CDD21FDCDC300013FE65 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8658CDD11FDCDC300013FE65 /* SongMaster.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8658CDD31FDCDC300013FE65 /* SongMaster */ = {
+			isa = PBXGroup;
+			children = (
+				865CD5891FFCA50C00F5AA34 /* 等一分钟.mp3 */,
+				867EE53D200C3C65001713E5 /* 父亲.mp3 */,
+				8672ADF01FE50B9500DBD858 /* 阴天快乐.mp3 */,
+				8658CDE81FDCF1710013FE65 /* 断点.mp3 */,
+				8658CDD41FDCDC300013FE65 /* AppDelegate.swift */,
+				8658CDD61FDCDC300013FE65 /* ViewController.swift */,
+				8658CDD81FDCDC300013FE65 /* Main.storyboard */,
+				8658CDDB1FDCDC300013FE65 /* Assets.xcassets */,
+				8658CDDD1FDCDC300013FE65 /* LaunchScreen.storyboard */,
+				8658CDE01FDCDC300013FE65 /* Info.plist */,
+				8672ADF21FE5135D00DBD858 /* PickerViewDataSource.swift */,
+				8656BCE11FEF60C900F71030 /* 愿得一人心.mp3 */,
+				8672ADF41FE52CBB00DBD858 /* LyricDataSource.swift */,
+				8672ADF61FE52D6600DBD858 /* LyricManager.swift */,
+				865EA4FE1FE7C1C60021D99B /* SelectSongDialogViewController.swift */,
+				864C816A1FEA30510054F759 /* ListDialog.swift */,
+				864C816C1FEA408B0054F759 /* ListDialogView.xib */,
+			);
+			path = SongMaster;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8658CDD01FDCDC300013FE65 /* SongMaster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8658CDE31FDCDC300013FE65 /* Build configuration list for PBXNativeTarget "SongMaster" */;
+			buildPhases = (
+				8658CDCD1FDCDC300013FE65 /* Sources */,
+				8658CDCE1FDCDC300013FE65 /* Frameworks */,
+				8658CDCF1FDCDC300013FE65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SongMaster;
+			productName = SongMaster;
+			productReference = 8658CDD11FDCDC300013FE65 /* SongMaster.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8658CDC91FDCDC300013FE65 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "RS-pax";
+				TargetAttributes = {
+					8658CDD01FDCDC300013FE65 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8658CDCC1FDCDC300013FE65 /* Build configuration list for PBXProject "SongMaster" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8658CDC81FDCDC300013FE65;
+			productRefGroup = 8658CDD21FDCDC300013FE65 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8658CDD01FDCDC300013FE65 /* SongMaster */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8658CDCF1FDCDC300013FE65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8658CDDF1FDCDC300013FE65 /* LaunchScreen.storyboard in Resources */,
+				8658CDDC1FDCDC300013FE65 /* Assets.xcassets in Resources */,
+				8658CDE91FDCF1710013FE65 /* 断点.mp3 in Resources */,
+				8656BCE21FEF60C900F71030 /* 愿得一人心.mp3 in Resources */,
+				865CD58A1FFCA50D00F5AA34 /* 等一分钟.mp3 in Resources */,
+				8672ADF11FE50B9500DBD858 /* 阴天快乐.mp3 in Resources */,
+				864C816D1FEA408B0054F759 /* ListDialogView.xib in Resources */,
+				867EE53E200C3C65001713E5 /* 父亲.mp3 in Resources */,
+				8658CDDA1FDCDC300013FE65 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8658CDCD1FDCDC300013FE65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8658CDD71FDCDC300013FE65 /* ViewController.swift in Sources */,
+				8672ADF71FE52D6600DBD858 /* LyricManager.swift in Sources */,
+				8672ADF51FE52CBB00DBD858 /* LyricDataSource.swift in Sources */,
+				865EA4FF1FE7C1C60021D99B /* SelectSongDialogViewController.swift in Sources */,
+				8658CDD51FDCDC300013FE65 /* AppDelegate.swift in Sources */,
+				864C816B1FEA30520054F759 /* ListDialog.swift in Sources */,
+				8672ADF31FE5135D00DBD858 /* PickerViewDataSource.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8658CDD81FDCDC300013FE65 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8658CDD91FDCDC300013FE65 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8658CDDD1FDCDC300013FE65 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8658CDDE1FDCDC300013FE65 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8658CDE11FDCDC300013FE65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8658CDE21FDCDC300013FE65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8658CDE41FDCDC300013FE65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 835TG685AT;
+				INFOPLIST_FILE = SongMaster/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RS.SongMaster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8658CDE51FDCDC300013FE65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 835TG685AT;
+				INFOPLIST_FILE = SongMaster/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RS.SongMaster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8658CDCC1FDCDC300013FE65 /* Build configuration list for PBXProject "SongMaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8658CDE11FDCDC300013FE65 /* Debug */,
+				8658CDE21FDCDC300013FE65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8658CDE31FDCDC300013FE65 /* Build configuration list for PBXNativeTarget "SongMaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8658CDE41FDCDC300013FE65 /* Debug */,
+				8658CDE51FDCDC300013FE65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8658CDC91FDCDC300013FE65 /* Project object */;
+}
